@@ -8,7 +8,10 @@ function Actors() {
       <div key={name}>
         <h2>{name}</h2>
         <ul>
-          <li>{movies}</li>
+          <li>{movies[0]}</li>
+          <li>{movies[1]}</li>
+          <li>{movies[2]}</li>
+          <li>{movies[3]}</li>
         </ul>
     </div>
      ))}

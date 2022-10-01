@@ -9,7 +9,11 @@ function Movies() {
         <h2>{title}</h2>
         <h3>{time}</h3>
         <ul>
-          <li>{genres.join(",")}</li>
+          <li>{genres[0]}</li>
+          <li>{genres[1]}</li>
+          <li>{genres[2]}</li>
+          <li>{genres[3]}</li>
+          <li>{genres[4]}</li>
         </ul>
     </div>
      ))}
